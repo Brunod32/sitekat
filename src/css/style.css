@@ -1,0 +1,55 @@
+/* homepage */
+
+.container-home {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-menu-home {
+    position: relative;
+    height: 60px;
+    width: 60px;
+    z-index: 2;
+    border: black solid 2px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.img-home {
+    position: fixed; 
+    top: 0; 
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+/* Navbar */
+
+nav {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom:1px solid black;
+    background-color: rgb(75, 80, 240);
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+    padding-top: 10px;
+}
+
+.btn-nav {
+    height: 30px;
+    width: 30px;
+    border: black solid 1px;
+    border-radius: 10px;
+    padding: 5px;
+}
