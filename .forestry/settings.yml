@@ -6,6 +6,21 @@ webhook_url:
 sections:
 - type: heading
   label: contenu
+- type: directory
+  path: src/dessin
+  label: dessin
+  create: all
+  match: "**/*"
+- type: directory
+  path: src/cuisine
+  label: cuisine
+  create: all
+  match: "**/*"
+- type: directory
+  path: src/bricolage
+  label: bricolage
+  create: all
+  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
