@@ -1,4 +1,28 @@
 ---
 label: cuisine
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: title
+- name: filter
+  type: text
+  config:
+    required: false
+  label: filter
+- name: ingredients
+  type: text
+  config:
+    required: false
+  label: ingredients
+- name: preparation
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: preparation
